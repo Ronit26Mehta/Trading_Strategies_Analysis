@@ -105,49 +105,7 @@ The backtesting results will be displayed within the notebook, allowing you to s
 
 ---
 
-## Notebook Analysis
 
-### 1. **ETL.ipynb (ETL Process)**
-
-This notebook is responsible for extracting and preprocessing cryptocurrency data from different fiat currencies (such as AUD and CAD). The key steps involved include:
-
-- **Data Extraction**: Imports raw cryptocurrency price data from CSV files.
-- **Data Cleaning**: Handles missing values and ensures consistent time intervals for price data.
-- **Data Transformation**: Converts data into a suitable format for use in trading algorithms (e.g., creating OHLC data frames).
-- **Output**: Preprocessed data is saved for analysis by the trading strategy notebooks.
-
-The ETL process is crucial for ensuring the quality and consistency of input data, which directly impacts the accuracy of the trading models.
-
-### 2. **preprocessed-dataset-for-strategies.ipynb**
-
-This notebook handles the preprocessing steps required for running trading strategies. It focuses on:
-
-- **Feature Engineering**: Creating additional features (e.g., moving averages, volatility indicators) from the price data to improve the performance of trading strategies.
-- **Data Splitting**: Splitting the data into training and testing sets to allow for backtesting of strategies.
-- **Visualization**: Displays initial data visualizations to ensure that preprocessing steps have been applied correctly.
-
-By engineering features and splitting the data, this notebook ensures the trading models have relevant inputs for training and evaluation.
-
-### 3. **Trading_Strategy.ipynb**
-
-This notebook implements a core trading strategy, utilizing technical indicators and backtesting the strategy using historical data. Key elements include:
-
-- **Strategy Design**: Implements a moving average crossover strategy, where buy/sell signals are generated based on the crossover of short-term and long-term moving averages.
-- **Backtesting**: Evaluates the historical performance of the strategy, calculating key metrics such as return on investment (ROI), drawdown, and win rate.
-- **Visualizations**: Uses Plotly to visualize entry/exit points on price charts, providing a clear view of how the strategy performed over time.
-
-This notebook provides a comprehensive implementation of a simple yet effective strategy, offering insights into the profitability of using moving averages in algorithmic trading.
-
-### 4. **trading_strategy_2.ipynb & trading_strategy_3.ipynb**
-
-These notebooks explore alternative trading strategies, each using different technical indicators and market conditions:
-
-- **Strategy 2**: Focuses on momentum-based trading, where buy/sell signals are triggered based on the momentum of price movements.
-- **Strategy 3**: Implements a Bollinger Bands strategy, where signals are generated when the price moves outside the upper or lower bands.
-
-Both strategies include backtesting results, comparing performance metrics like profitability and risk against the baseline moving average crossover strategy.
-
----
 
 ## Data Management & Security
 
