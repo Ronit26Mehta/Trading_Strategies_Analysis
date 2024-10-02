@@ -123,6 +123,17 @@ This project ensures effective data handling through:
 
 This video presentation offers a detailed overview of the project’s goals, outcomes, and technical components: [project presentation](https://github.com/Ankush2201/Trading_Strategie_Analysis/assets/79956433/af980674-1304-4cea-a7bd-0280ac5857c7).
 ---
+## some of the Trading Straegies in Use:
+   1. seasonalilty startegy:
+      ![image](https://github.com/user-attachments/assets/c0f0e785-e10d-4f51-a53a-203d355ff71b)
+   2. RIS:
+      ![image](https://github.com/user-attachments/assets/38df64b7-8f08-49ba-8018-b11bb9c8e249)
+   3. Harmonic Startegy(Gately Pattern):
+      ![image](https://github.com/user-attachments/assets/3dbd5dee-4140-4ce0-ae2d-209bf39b2505)
+   4. Moving Average:
+      ![image](https://github.com/user-attachments/assets/c6b95ef8-48ff-4f40-84ab-af65adca0a65)
+
+---
 ## Contributing
 
 Contributions to this project are welcome. To contribute:
