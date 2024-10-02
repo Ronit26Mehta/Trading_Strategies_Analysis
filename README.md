@@ -163,7 +163,7 @@ This project ensures effective data handling through:
 ---
 
 
-This video presentation offers a detailed overview of the project’s goals, outcomes, and technical components: [Project Presentation](https://github.com/Ankush2201/Trading_Strategie_Analysis/assets/79956433/af980674-1304-4cea-a7bd-0280ac5857c7).
+This video presentation offers a detailed overview of the project’s goals, outcomes, and technical components: https://github.com/Ankush2201/Trading_Strategie_Analysis/assets/79956433/af980674-1304-4cea-a7bd-0280ac5857c7
 
 
 ---
